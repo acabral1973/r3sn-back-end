@@ -1,0 +1,19 @@
+{
+  "name": "r3sn",
+  "version": "1.0.0",
+  "description": "Backend para la red social medioambiental r3sn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acabral1973/r3sn-back-end.git"
+  },
+  "author": "Alejandro Cabral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acabral1973/r3sn-back-end/issues"
+  },
+  "homepage": "https://github.com/acabral1973/r3sn-back-end#readme"
+}
