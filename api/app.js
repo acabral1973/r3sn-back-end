@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 // Cargar rutas
-
+var user_routes = require('./routes/user');
 
 
 // Midelwares
@@ -18,20 +18,8 @@ app.use(bodyParser.json());
 
 
 // Rutas
+app.use('/api', user_routes);
 
-// Home
-app.get('/', (req, res) => {
-    res.status(200).send({
-        message: 'Bienvenido a R3NS - Home'
-    });
-});
-
-// Test
-app.post('/test', (req, res) => {
-    res.status(200).send({
-        message: 'Bienvenido a R3NS - Test'
-    });
-});
 
 // Export
 module.exports = app;
